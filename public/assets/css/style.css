@@ -347,7 +347,12 @@ section.info-w3ls p.text-center,section.info-w3ls2 p.text-center,section.info-w3
 /*-- /1st info section --*/
 /*-- 2nd banner section --*/
 section.banner-w3ls2 {
-	background:url(../images/banner2.jpg);
+	background:
+	linear-gradient(
+		rgba(0, 0, 255, 0.45), 
+		rgba(0, 0, 255, 0.45)
+	  ),
+	url(../images/people2.jpg);
 	background-position:center;
 	background-attachment:fixed;
 	background-repeat:no repeat;
@@ -372,7 +377,12 @@ section.banner-w3ls2 h3.text-center,section.banner-w3ls3 h3.text-center {
 /*-- /2nd info section --*/
 /*-- 3rd banner section --*/
 section.banner-w3ls3 {
-	background:url(../images/banner3.jpg);
+	background:
+	linear-gradient(
+		rgba(255, 0, 0, 0.45), 
+		rgba(255, 0, 0, 0.45)
+	  ),
+	url(../images/people1.jpg);
 	background-position:center;
 	background-attachment:fixed;
 	background-repeat:no repeat;
@@ -724,7 +734,12 @@ section.footer-agileits p.copyright a:hover {
 /*-- /back to top --*/
 /*-- inner pages banner --*/
 section.inner-w3ls {
-	background:url(../images/banner1.jpg);
+	background:
+	linear-gradient(
+		rgba(0, 0, 0, 0.45), 
+		rgba(0, 0, 0, 0.45)
+	  ),
+	url(../images/boat5.jpeg);
 	background-position:center;
 	background-attachment:fixed;
 	background-repeat:no repeat;
@@ -1104,19 +1119,19 @@ section.service-w3ls p.serv-p1 {
 }
 
 .ch-img-1 { 
-	background-image: url(../images/serv-img1.jpg);
+	background-image: url(../images/work8.jpg);
 }
 
 .ch-img-2 { 
-	background-image: url(../images/serv-img2.jpg);
+	background-image: url(../images/frozen3.jpg);
 }
 
 .ch-img-3 { 
-	background-image: url(../images/serv-img3.jpg);
+	background-image: url(../images/engine.jpg);
 }
 
 .ch-img-4 { 
-	background-image: url(../images/serv-img4.jpg);
+	background-image: url(../images/serv-img2.jpg);
 }
 
 .ch-info h3 {

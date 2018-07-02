@@ -11,7 +11,10 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('index');
-});
+Route::get('/', 'HomeController@viewHome');
+Route::get('/about-us', 'HomeController@viewAbout');
+Route::get('/marine-consult', 'HomeController@viewConsult');
+Route::get('/marine-supplies', 'HomeController@viewSupplies');
+Route::get('/support', 'HomeController@viewSupport');
+Route::get('/oil-and-gas', 'HomeController@viewOil');
+Route::get('/contact', 'HomeController@viewContact');
